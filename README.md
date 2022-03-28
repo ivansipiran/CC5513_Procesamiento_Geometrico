@@ -2,10 +2,10 @@
 
 ## Lista de papers
 
-*  <span style="color:blue">VDB: High-Resolution Sparse Volumes with Dynamic Topology</span> [link](http://www.museth.org/Ken/Publications_files/Museth_TOG13.pdf)
+*  **VDB: High-Resolution Sparse Volumes with Dynamic Topology** [link](http://www.museth.org/Ken/Publications_files/Museth_TOG13.pdf)
 * A Comparison of Algorithms for Vertex Normal Computation [link](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.2846&rep=rep1&type=pdf)
 * Marching cubes: A high resolution resolution 3D surface surface construction construction algorithm [link](http://fab.cba.mit.edu/classes/S62.12/docs/Lorensen_marching_cubes.pdf)
-* <span style="color:blue">Fast neighborhood search on polygonal meshes</span> [link](https://cims.nyu.edu/gcl/papers/EGIT11-RocDeGPanPup.pdf)
+* **Fast neighborhood search on polygonal meshes** [link](https://cims.nyu.edu/gcl/papers/EGIT11-RocDeGPanPup.pdf)
 * Computing geodesic paths on manifolds [link](https://www.pnas.org/doi/pdf/10.1073/pnas.95.15.8431)
 * Exact and Robust (Self-)Intersections for Polygonal Meshes [link](https://www.graphics.rwth-aachen.de/media/papers/campen_2010_eg_021.pdf)
 * Walking On Broken Mesh:
