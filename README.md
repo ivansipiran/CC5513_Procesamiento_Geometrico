@@ -26,9 +26,15 @@ Defect-Tolerant Geodesic Distances and Parameterizations [link](https://www.grap
  [link](http://mesh.brown.edu/taubin/pdfs/taubin-eg00star.pdf)
  * A Laplacian for Nonmanifold Triangle Meshes [link](http://www.cs.cmu.edu/~kmcrane/Projects/NonmanifoldLaplace/NonmanifoldLaplace.pdf)
 
+---
+* Global correspondence optimization for Non-Rigid Registration of Depth Scans [link](http://www.hao-li.com/publications/papers/sgp2008GCO.pdf)
+* Sparse Iterative Closest Point [link](https://lgg.epfl.ch/publications/2014/sparseicp/paper.pdf)
+* Super4PCS: Fast Global Pointcloud Registration via Smart Indexing [link](http://geometry.cs.ucl.ac.uk/projects/2014/super4PCS/super4pcs.pdf)
 
-
-
+--- 
+* GlobFit: Consistently Fitting Primitives by Discovering Global Relations [link](http://vecg.cs.ucl.ac.uk/Projects/SmartGeometry/globFit/paper_docs/globFit_sigg11.pdf)
+* Surface Reconstruction through Point Set Structuring [link](https://hal.inria.fr/hal-00822763/file/paper_hal.pdf)
+* Screened Poisson Surface Reconstruction [link](https://www.cs.jhu.edu/~misha/MyPapers/ToG13.pdf)
 
 
 
