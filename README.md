@@ -36,5 +36,15 @@ Defect-Tolerant Geodesic Distances and Parameterizations [link](https://www.grap
 * Surface Reconstruction through Point Set Structuring [link](https://hal.inria.fr/hal-00822763/file/paper_hal.pdf)
 * Screened Poisson Surface Reconstruction [link](https://www.cs.jhu.edu/~misha/MyPapers/ToG13.pdf)
 
+---
+* Laplace-Beltrami Eigenfunctions for Deformation Invariant
+Shape Representation [link](https://www.cs.jhu.edu/~misha/Fall07/Papers/Rustamov07.pdf)
+* Spectral Mesh Simplification [link](https://www.dgp.toronto.edu/~hsuehtil/pdf/specSim.pdf)
+* The Vector Heat Method [link](https://www.cs.cmu.edu/~kmcrane/Projects/VectorHeatMethod/paper.pdf)
+* Global Intrinsic Symmetries of Shapes [link](http://www.lix.polytechnique.fr/~maks/papers/int_sym.pdf)
+* One Point Isometric Matching with the Heat Kernel [link](http://www.lix.polytechnique.fr/~maks/papers/onepoint.pdf)
+* Shape Google: Geometric Words and Expressions for Invariant
+Shape Retrieval [link](http://www.lix.polytechnique.fr/~maks/papers/shapegoogle.pdf)
+
 
 
