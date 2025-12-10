@@ -1,6 +1,24 @@
 # CC5513_Procesamiento_Geometrico
 
-## Lista de papers
+## Contenido
+
+* Introducción [Slides](./Slides/Tema1_Introduccion.pdf)
+* Representaciones 3D [Slides](./Slides/Tema2_Representaciones.pdf)
+* Estructuras de datos de mallas [Slides](./Slides/Tema3_Estructuras_Mallas.pdf)
+* Mesh smoothing [Slides](./Slides/Tema4_Mesh_Smoothing.pdf)
+* Adquisición de datos 3D y registro [Slides](./Slides/Tema5_Adquisicion_Registro.pdf)
+* Registro local [Slides](./Slides/Tema6_Registro2.pdf)
+* Mesh reconstruction [Slides](./Slides/Tema7_Reconstruccion.pdf)
+* Procesamiento geométrico de mallas [Slides](./Slides/Tema8_OperacionesMallas.pdf)
+* Parametrización [Slides](./Slides/Tema9_Parametrizacion.pdf)
+* Remeshing [Slides](./Slides/Tema10_Remeshing.pdf)
+* Deformación de mallas [Slides](./Slides/Tema11_Deformacion.pdf)
+* Análisis de formas [Slides](./Slides/Tema12_ShapeAnalysis.pdf)
+* Análisis espectral de formas [Slides](./Slides/Tema13_AnalisisEspectral.pdf)
+* Shape Matching [Slides](./Slides/Tema14_ShapeMatching.pdf)
+
+
+## Lecturas
 
 *  **VDB: High-Resolution Sparse Volumes with Dynamic Topology** [link](http://www.museth.org/Ken/Publications_files/Museth_TOG13.pdf)
 * A Comparison of Algorithms for Vertex Normal Computation [link](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.99.2846&rep=rep1&type=pdf)
