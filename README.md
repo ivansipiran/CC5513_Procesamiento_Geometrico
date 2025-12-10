@@ -1,4 +1,4 @@
-# CC5513_Procesamiento_Geometrico
+# CC5513 Procesamiento Geometrico y Análisis de Formas
 
 ## Contenido
 
