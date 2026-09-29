@@ -1,0 +1,8 @@
+numpy
+scipy
+polyscope
+matplotlib      # solo para `compare --plot`
+certifi         # descargas en Windows/conda
+# opcionales:
+# open3d        # método de referencia "Open3D (quadric)"
+# trimesh       # leer .ply

@@ -1,0 +1,310 @@
+
+### bunny dphi=45 sigma=0.0 seed=1 overlap=0.87
+  Harris3D+spin+grouping   rot=   0.13 trans=0.0014 rmse=0.0009 OK    1.1s
+  Harris3D+spin+RANSAC     rot=   0.13 trans=0.0013 rmse=0.0009 OK    0.8s
+  Harris3D+FPFH+RANSAC     rot=   0.13 trans=0.0014 rmse=0.0009 OK    0.9s
+  uniforme+spin+RANSAC     rot=   0.13 trans=0.0014 rmse=0.0009 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.13 trans=0.0014 rmse=0.0009 OK    0.4s
+  FGR (Open3D)             rot=   0.13 trans=0.0014 rmse=0.0009 OK    0.4s
+  4PCS                     rot=   0.13 trans=0.0014 rmse=0.0009 OK    7.5s
+  Super4PCS                rot=   0.13 trans=0.0013 rmse=0.0009 OK   10.2s
+
+### bunny dphi=45 sigma=0.0 seed=2 overlap=0.87
+  Harris3D+spin+grouping   rot=   0.13 trans=0.0007 rmse=0.0009 OK    0.9s
+  Harris3D+spin+RANSAC     rot=   0.13 trans=0.0007 rmse=0.0009 OK    1.0s
+  Harris3D+FPFH+RANSAC     rot=   0.13 trans=0.0007 rmse=0.0009 OK    0.8s
+  uniforme+spin+RANSAC     rot=   0.13 trans=0.0007 rmse=0.0009 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.13 trans=0.0007 rmse=0.0009 OK    0.4s
+  FGR (Open3D)             rot=   0.13 trans=0.0007 rmse=0.0009 OK    0.4s
+  4PCS                     rot=   0.13 trans=0.0007 rmse=0.0009 OK    8.5s
+  Super4PCS                rot=   0.13 trans=0.0007 rmse=0.0009 OK    9.8s
+
+### bunny dphi=45 sigma=0.0 seed=3 overlap=0.87
+  Harris3D+spin+grouping   rot=   0.13 trans=0.0011 rmse=0.0009 OK    1.0s
+  Harris3D+spin+RANSAC     rot=   0.13 trans=0.0011 rmse=0.0009 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.13 trans=0.0011 rmse=0.0009 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.13 trans=0.0011 rmse=0.0009 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.13 trans=0.0011 rmse=0.0009 OK    0.4s
+  FGR (Open3D)             rot=   0.13 trans=0.0011 rmse=0.0009 OK    0.4s
+  4PCS                     rot=   0.13 trans=0.0011 rmse=0.0009 OK    8.6s
+  Super4PCS                rot=   0.13 trans=0.0011 rmse=0.0009 OK    9.7s
+
+### bunny dphi=90 sigma=0.0 seed=1 overlap=0.65
+  Harris3D+spin+grouping   rot=   0.20 trans=0.0025 rmse=0.0018 OK    0.8s
+  Harris3D+spin+RANSAC     rot=   0.20 trans=0.0025 rmse=0.0018 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.20 trans=0.0025 rmse=0.0018 OK    0.6s
+  uniforme+spin+RANSAC     rot=   0.20 trans=0.0025 rmse=0.0018 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.20 trans=0.0025 rmse=0.0018 OK    0.4s
+  FGR (Open3D)             rot=   0.20 trans=0.0025 rmse=0.0018 OK    0.4s
+  4PCS                     rot=   0.20 trans=0.0025 rmse=0.0018 OK    7.1s
+  Super4PCS                rot=   0.20 trans=0.0025 rmse=0.0018 OK    8.3s
+
+### bunny dphi=90 sigma=0.0 seed=2 overlap=0.65
+  Harris3D+spin+grouping   rot=   0.20 trans=0.0019 rmse=0.0018 OK    0.9s
+  Harris3D+spin+RANSAC     rot=   0.20 trans=0.0019 rmse=0.0018 OK    0.8s
+  Harris3D+FPFH+RANSAC     rot=   0.20 trans=0.0019 rmse=0.0018 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.20 trans=0.0019 rmse=0.0018 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.19 trans=0.0019 rmse=0.0018 OK    0.5s
+  FGR (Open3D)             rot=   0.20 trans=0.0019 rmse=0.0018 OK    0.4s
+  4PCS                     rot=   0.20 trans=0.0019 rmse=0.0018 OK    7.1s
+  Super4PCS                rot=   0.20 trans=0.0019 rmse=0.0018 OK    8.7s
+
+### bunny dphi=90 sigma=0.0 seed=3 overlap=0.65
+  Harris3D+spin+grouping   rot=   0.20 trans=0.0021 rmse=0.0018 OK    0.9s
+  Harris3D+spin+RANSAC     rot=   0.20 trans=0.0021 rmse=0.0018 OK    0.9s
+  Harris3D+FPFH+RANSAC     rot=   0.20 trans=0.0021 rmse=0.0018 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.20 trans=0.0021 rmse=0.0018 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.20 trans=0.0021 rmse=0.0018 OK    0.4s
+  FGR (Open3D)             rot=   0.20 trans=0.0021 rmse=0.0018 OK    0.4s
+  4PCS                     rot=   0.20 trans=0.0021 rmse=0.0018 OK    7.8s
+  Super4PCS                rot=   0.20 trans=0.0021 rmse=0.0018 OK    9.9s
+
+### bunny dphi=135 sigma=0.0 seed=1 overlap=0.30
+  Harris3D+spin+grouping   rot= 127.61 trans=0.4925 rmse=0.5234 FAIL   0.7s
+  Harris3D+spin+RANSAC     rot=   1.73 trans=0.0221 rmse=0.0171 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   1.74 trans=0.0221 rmse=0.0171 OK    0.7s
+  uniforme+spin+RANSAC     rot=  58.59 trans=0.4773 rmse=0.2321 FAIL   0.6s
+  FPFH+RANSAC (Open3D)     rot=   1.73 trans=0.0221 rmse=0.0171 OK    0.7s
+  FGR (Open3D)             rot=   1.73 trans=0.0221 rmse=0.0171 OK    0.4s
+  4PCS                     rot=   1.75 trans=0.0222 rmse=0.0171 OK    8.9s
+  Super4PCS                rot=   1.75 trans=0.0222 rmse=0.0171 OK    9.1s
+
+### bunny dphi=135 sigma=0.0 seed=2 overlap=0.30
+  Harris3D+spin+grouping   rot= 148.43 trans=0.3613 rmse=0.5026 FAIL   1.1s
+  Harris3D+spin+RANSAC     rot=   1.73 trans=0.0250 rmse=0.0171 OK    0.8s
+  Harris3D+FPFH+RANSAC     rot=   1.76 trans=0.0250 rmse=0.0171 OK    0.8s
+  uniforme+spin+RANSAC     rot=  65.31 trans=0.3579 rmse=0.2576 FAIL   0.5s
+  FPFH+RANSAC (Open3D)     rot=   1.73 trans=0.0250 rmse=0.0171 OK    0.9s
+  FGR (Open3D)             rot=   1.75 trans=0.0250 rmse=0.0171 OK    0.4s
+  4PCS                     rot=   1.69 trans=0.0249 rmse=0.0171 OK    9.5s
+  Super4PCS                rot=   1.74 trans=0.0250 rmse=0.0171 OK   14.5s
+
+### bunny dphi=135 sigma=0.0 seed=3 overlap=0.30
+  Harris3D+spin+grouping   rot= 169.37 trans=0.4195 rmse=0.6377 FAIL   0.7s
+  Harris3D+spin+RANSAC     rot=   1.73 trans=0.0136 rmse=0.0171 OK    0.8s
+  Harris3D+FPFH+RANSAC     rot=  30.18 trans=0.1067 rmse=0.1171 FAIL   0.7s
+  uniforme+spin+RANSAC     rot=   1.69 trans=0.0140 rmse=0.0171 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   1.76 trans=0.0134 rmse=0.0171 OK    0.8s
+  FGR (Open3D)             rot=  30.18 trans=0.1067 rmse=0.1171 FAIL   0.4s
+  4PCS                     rot=  81.68 trans=0.4674 rmse=0.3150 FAIL   9.3s
+  Super4PCS                rot=  58.59 trans=0.3647 rmse=0.2321 FAIL  11.9s
+
+### armadillo dphi=45 sigma=0.0 seed=1 overlap=0.85
+  Harris3D+spin+grouping   rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.7s
+  Harris3D+spin+RANSAC     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.5s
+  uniforme+spin+RANSAC     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.3s
+  FGR (Open3D)             rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.3s
+  4PCS                     rot=   0.02 trans=0.0014 rmse=0.0012 OK    8.6s
+  Super4PCS                rot=   0.02 trans=0.0014 rmse=0.0012 OK   10.2s
+
+### armadillo dphi=45 sigma=0.0 seed=2 overlap=0.85
+  Harris3D+spin+grouping   rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.7s
+  Harris3D+spin+RANSAC     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.6s
+  uniforme+spin+RANSAC     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.3s
+  FGR (Open3D)             rot=   0.02 trans=0.0014 rmse=0.0012 OK    0.3s
+  4PCS                     rot=   0.02 trans=0.0014 rmse=0.0012 OK    7.3s
+  Super4PCS                rot=   0.02 trans=0.0014 rmse=0.0012 OK    9.6s
+
+### armadillo dphi=45 sigma=0.0 seed=3 overlap=0.85
+  Harris3D+spin+grouping   rot=   0.02 trans=0.0011 rmse=0.0012 OK    0.7s
+  Harris3D+spin+RANSAC     rot=   0.02 trans=0.0012 rmse=0.0012 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.02 trans=0.0012 rmse=0.0012 OK    0.5s
+  uniforme+spin+RANSAC     rot=   0.02 trans=0.0012 rmse=0.0012 OK    0.3s
+  FPFH+RANSAC (Open3D)     rot=   0.02 trans=0.0011 rmse=0.0012 OK    0.3s
+  FGR (Open3D)             rot=   0.02 trans=0.0012 rmse=0.0012 OK    0.3s
+  4PCS                     rot=   0.02 trans=0.0012 rmse=0.0012 OK    7.0s
+  Super4PCS                rot=   0.02 trans=0.0012 rmse=0.0012 OK    9.7s
+
+### armadillo dphi=90 sigma=0.0 seed=1 overlap=0.61
+  Harris3D+spin+grouping   rot=   0.49 trans=0.0037 rmse=0.0027 OK    0.8s
+  Harris3D+spin+RANSAC     rot=   0.49 trans=0.0037 rmse=0.0027 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.49 trans=0.0037 rmse=0.0027 OK    0.6s
+  uniforme+spin+RANSAC     rot=   0.49 trans=0.0037 rmse=0.0027 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.49 trans=0.0037 rmse=0.0027 OK    0.7s
+  FGR (Open3D)             rot=   0.49 trans=0.0037 rmse=0.0027 OK    0.3s
+  4PCS                     rot=   0.49 trans=0.0037 rmse=0.0027 OK    8.1s
+  Super4PCS                rot=   0.49 trans=0.0037 rmse=0.0027 OK    9.4s
+
+### armadillo dphi=90 sigma=0.0 seed=2 overlap=0.61
+  Harris3D+spin+grouping   rot=   0.49 trans=0.0051 rmse=0.0027 OK    0.6s
+  Harris3D+spin+RANSAC     rot=   0.49 trans=0.0051 rmse=0.0027 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.49 trans=0.0051 rmse=0.0027 OK    0.6s
+  uniforme+spin+RANSAC     rot=   0.49 trans=0.0051 rmse=0.0027 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.49 trans=0.0051 rmse=0.0027 OK    0.8s
+  FGR (Open3D)             rot=   0.49 trans=0.0051 rmse=0.0027 OK    0.3s
+  4PCS                     rot=   0.49 trans=0.0051 rmse=0.0027 OK    7.5s
+  Super4PCS                rot=   0.49 trans=0.0051 rmse=0.0027 OK    9.3s
+
+### armadillo dphi=90 sigma=0.0 seed=3 overlap=0.61
+  Harris3D+spin+grouping   rot=   0.49 trans=0.0049 rmse=0.0027 OK    0.7s
+  Harris3D+spin+RANSAC     rot=   0.49 trans=0.0049 rmse=0.0027 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.49 trans=0.0049 rmse=0.0027 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.49 trans=0.0049 rmse=0.0027 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.49 trans=0.0049 rmse=0.0027 OK    0.8s
+  FGR (Open3D)             rot=   0.49 trans=0.0049 rmse=0.0027 OK    0.3s
+  4PCS                     rot=   0.49 trans=0.0049 rmse=0.0027 OK    7.8s
+  Super4PCS                rot=   0.49 trans=0.0049 rmse=0.0027 OK    9.3s
+
+### armadillo dphi=135 sigma=0.0 seed=1 overlap=0.28
+  Harris3D+spin+grouping   rot=  59.52 trans=0.1317 rmse=0.2185 FAIL   0.9s
+  Harris3D+spin+RANSAC     rot=  93.26 trans=0.3910 rmse=0.2944 FAIL   0.8s
+  Harris3D+FPFH+RANSAC     rot= 153.66 trans=0.4198 rmse=0.2923 FAIL   0.6s
+  uniforme+spin+RANSAC     rot= 147.19 trans=0.3800 rmse=0.3070 FAIL   0.5s
+  FPFH+RANSAC (Open3D)     rot= 147.23 trans=0.3799 rmse=0.3068 FAIL   2.0s
+  FGR (Open3D)             rot=  94.24 trans=0.3275 rmse=0.2707 FAIL   0.5s
+  4PCS                     rot= 146.31 trans=0.3793 rmse=0.3064 FAIL   9.3s
+  Super4PCS                rot= 105.39 trans=0.3352 rmse=0.2628 FAIL  10.5s
+
+### armadillo dphi=135 sigma=0.0 seed=2 overlap=0.28
+  Harris3D+spin+grouping   rot=  59.52 trans=0.6022 rmse=0.2185 FAIL   1.0s
+  Harris3D+spin+RANSAC     rot=   1.75 trans=0.0185 rmse=0.0161 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   1.75 trans=0.0185 rmse=0.0161 OK    0.6s
+  uniforme+spin+RANSAC     rot= 146.22 trans=0.8878 rmse=0.3064 FAIL   0.5s
+  FPFH+RANSAC (Open3D)     rot= 167.46 trans=0.7758 rmse=0.4906 FAIL   2.0s
+  FGR (Open3D)             rot=  87.18 trans=0.7744 rmse=0.2691 FAIL   0.6s
+  4PCS                     rot= 123.98 trans=0.8086 rmse=0.2863 FAIL   9.4s
+  Super4PCS                rot= 145.21 trans=0.8856 rmse=0.3053 FAIL  11.4s
+
+### armadillo dphi=135 sigma=0.0 seed=3 overlap=0.28
+  Harris3D+spin+grouping   rot=  59.52 trans=0.4496 rmse=0.2185 FAIL   1.0s
+  Harris3D+spin+RANSAC     rot=   1.71 trans=0.0093 rmse=0.0161 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot= 153.66 trans=0.4667 rmse=0.2923 FAIL   0.6s
+  uniforme+spin+RANSAC     rot= 147.19 trans=0.2076 rmse=0.3070 FAIL   0.5s
+  FPFH+RANSAC (Open3D)     rot=  93.30 trans=0.1361 rmse=0.2947 FAIL   2.0s
+  FGR (Open3D)             rot=  94.55 trans=0.4548 rmse=0.2690 FAIL   0.5s
+  4PCS                     rot= 145.50 trans=0.2056 rmse=0.3058 FAIL   9.1s
+  Super4PCS                rot= 172.33 trans=0.3462 rmse=0.3073 FAIL  11.2s
+
+### bunny dphi=90 sigma=0.002 seed=1 overlap=0.65
+  Harris3D+spin+grouping   rot=   0.40 trans=0.0040 rmse=0.0024 OK    0.8s
+  Harris3D+spin+RANSAC     rot=   0.41 trans=0.0042 rmse=0.0025 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.40 trans=0.0040 rmse=0.0024 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.40 trans=0.0040 rmse=0.0024 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.40 trans=0.0040 rmse=0.0024 OK    1.0s
+  FGR (Open3D)             rot=   0.40 trans=0.0040 rmse=0.0024 OK    0.4s
+  4PCS                     rot=   0.40 trans=0.0041 rmse=0.0025 OK    6.5s
+  Super4PCS                rot=   0.40 trans=0.0041 rmse=0.0025 OK    7.5s
+
+### bunny dphi=90 sigma=0.002 seed=2 overlap=0.65
+  Harris3D+spin+grouping   rot=   0.41 trans=0.0025 rmse=0.0020 OK    0.9s
+  Harris3D+spin+RANSAC     rot=   0.41 trans=0.0025 rmse=0.0020 OK    0.9s
+  Harris3D+FPFH+RANSAC     rot=   0.42 trans=0.0025 rmse=0.0020 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.40 trans=0.0024 rmse=0.0019 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.41 trans=0.0025 rmse=0.0020 OK    1.0s
+  FGR (Open3D)             rot=   0.41 trans=0.0025 rmse=0.0020 OK    0.4s
+  4PCS                     rot=   0.40 trans=0.0024 rmse=0.0020 OK    8.2s
+  Super4PCS                rot=   0.42 trans=0.0025 rmse=0.0020 OK    9.1s
+
+### bunny dphi=90 sigma=0.002 seed=3 overlap=0.65
+  Harris3D+spin+grouping   rot=  40.26 trans=0.1135 rmse=0.1623 FAIL   1.0s
+  Harris3D+spin+RANSAC     rot=   0.39 trans=0.0027 rmse=0.0023 OK    0.8s
+  Harris3D+FPFH+RANSAC     rot=   0.39 trans=0.0027 rmse=0.0023 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.39 trans=0.0027 rmse=0.0023 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.39 trans=0.0027 rmse=0.0023 OK    0.9s
+  FGR (Open3D)             rot=   0.39 trans=0.0027 rmse=0.0023 OK    0.4s
+  4PCS                     rot=   0.39 trans=0.0027 rmse=0.0023 OK    6.7s
+  Super4PCS                rot=   0.39 trans=0.0027 rmse=0.0023 OK    8.7s
+
+### armadillo dphi=90 sigma=0.002 seed=1 overlap=0.61
+  Harris3D+spin+grouping   rot=   0.52 trans=0.0029 rmse=0.0029 OK    0.6s
+  Harris3D+spin+RANSAC     rot=   0.52 trans=0.0030 rmse=0.0029 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.52 trans=0.0030 rmse=0.0029 OK    0.5s
+  uniforme+spin+RANSAC     rot=   0.52 trans=0.0030 rmse=0.0029 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.52 trans=0.0029 rmse=0.0029 OK    0.8s
+  FGR (Open3D)             rot=   0.52 trans=0.0030 rmse=0.0029 OK    0.3s
+  4PCS                     rot=   0.52 trans=0.0029 rmse=0.0029 OK    7.6s
+  Super4PCS                rot=   0.52 trans=0.0030 rmse=0.0029 OK   10.8s
+
+### armadillo dphi=90 sigma=0.002 seed=2 overlap=0.61
+  Harris3D+spin+grouping   rot= 139.68 trans=0.6782 rmse=0.5501 FAIL   0.8s
+  Harris3D+spin+RANSAC     rot=   0.59 trans=0.0065 rmse=0.0032 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.59 trans=0.0065 rmse=0.0032 OK    0.6s
+  uniforme+spin+RANSAC     rot=   0.59 trans=0.0065 rmse=0.0032 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.60 trans=0.0066 rmse=0.0032 OK    0.8s
+  FGR (Open3D)             rot=   0.59 trans=0.0065 rmse=0.0032 OK    0.3s
+  4PCS                     rot=   0.60 trans=0.0066 rmse=0.0032 OK    8.4s
+  Super4PCS                rot=   0.60 trans=0.0066 rmse=0.0032 OK   11.7s
+
+### armadillo dphi=90 sigma=0.002 seed=3 overlap=0.61
+  Harris3D+spin+grouping   rot= 129.65 trans=1.0916 rmse=0.5117 FAIL   0.8s
+  Harris3D+spin+RANSAC     rot=   0.49 trans=0.0053 rmse=0.0029 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.48 trans=0.0053 rmse=0.0029 OK    0.5s
+  uniforme+spin+RANSAC     rot=   0.49 trans=0.0053 rmse=0.0029 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.49 trans=0.0053 rmse=0.0029 OK    0.8s
+  FGR (Open3D)             rot=   0.49 trans=0.0053 rmse=0.0029 OK    0.3s
+  4PCS                     rot=   0.48 trans=0.0053 rmse=0.0029 OK    8.4s
+  Super4PCS                rot=   0.49 trans=0.0053 rmse=0.0029 OK   10.6s
+
+### bunny dphi=90 sigma=0.004 seed=1 overlap=0.64
+  Harris3D+spin+grouping   rot= 177.62 trans=0.8368 rmse=0.4888 FAIL   1.0s
+  Harris3D+spin+RANSAC     rot=   0.57 trans=0.0052 rmse=0.0037 OK    0.9s
+  Harris3D+FPFH+RANSAC     rot=   0.57 trans=0.0052 rmse=0.0037 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.57 trans=0.0053 rmse=0.0037 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.57 trans=0.0052 rmse=0.0037 OK    0.8s
+  FGR (Open3D)             rot=   0.57 trans=0.0052 rmse=0.0037 OK    0.5s
+  4PCS                     rot=   0.57 trans=0.0052 rmse=0.0037 OK    7.0s
+  Super4PCS                rot=   0.57 trans=0.0053 rmse=0.0037 OK    9.5s
+
+### bunny dphi=90 sigma=0.004 seed=2 overlap=0.65
+  Harris3D+spin+grouping   rot= 152.79 trans=0.8698 rmse=0.4921 FAIL   1.0s
+  Harris3D+spin+RANSAC     rot=   0.60 trans=0.0024 rmse=0.0026 OK    0.8s
+  Harris3D+FPFH+RANSAC     rot=   0.59 trans=0.0022 rmse=0.0026 OK    0.8s
+  uniforme+spin+RANSAC     rot=   0.60 trans=0.0024 rmse=0.0026 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.58 trans=0.0021 rmse=0.0026 OK    0.9s
+  FGR (Open3D)             rot=   0.60 trans=0.0024 rmse=0.0026 OK    0.5s
+  4PCS                     rot=   0.60 trans=0.0023 rmse=0.0026 OK    7.1s
+  Super4PCS                rot=   0.59 trans=0.0023 rmse=0.0026 OK   10.9s
+
+### bunny dphi=90 sigma=0.004 seed=3 overlap=0.64
+  Harris3D+spin+grouping   rot= 179.63 trans=0.2499 rmse=0.4754 FAIL   0.9s
+  Harris3D+spin+RANSAC     rot=   0.52 trans=0.0020 rmse=0.0027 OK    0.9s
+  Harris3D+FPFH+RANSAC     rot=  38.90 trans=0.1069 rmse=0.1563 FAIL   0.8s
+  uniforme+spin+RANSAC     rot=   0.54 trans=0.0023 rmse=0.0026 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.55 trans=0.0024 rmse=0.0027 OK    0.9s
+  FGR (Open3D)             rot=   0.54 trans=0.0023 rmse=0.0026 OK    0.5s
+  4PCS                     rot=   0.54 trans=0.0024 rmse=0.0026 OK    7.1s
+  Super4PCS                rot=   0.54 trans=0.0024 rmse=0.0026 OK    9.1s
+
+### armadillo dphi=90 sigma=0.004 seed=1 overlap=0.61
+  Harris3D+spin+grouping   rot= 127.61 trans=0.4925 rmse=0.5153 FAIL   0.6s
+  Harris3D+spin+RANSAC     rot=  39.26 trans=0.1978 rmse=0.1352 FAIL   0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.66 trans=0.0041 rmse=0.0037 OK    0.7s
+  uniforme+spin+RANSAC     rot=   0.71 trans=0.0043 rmse=0.0038 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.69 trans=0.0042 rmse=0.0038 OK    0.7s
+  FGR (Open3D)             rot=   0.69 trans=0.0042 rmse=0.0038 OK    0.4s
+  4PCS                     rot=   0.70 trans=0.0042 rmse=0.0038 OK    7.6s
+  Super4PCS                rot=   0.69 trans=0.0042 rmse=0.0038 OK   10.3s
+
+### armadillo dphi=90 sigma=0.004 seed=2 overlap=0.60
+  Harris3D+spin+grouping   rot=  75.24 trans=0.7695 rmse=0.3262 FAIL   0.8s
+  Harris3D+spin+RANSAC     rot=   0.80 trans=0.0089 rmse=0.0039 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.81 trans=0.0089 rmse=0.0039 OK    0.6s
+  uniforme+spin+RANSAC     rot=   0.81 trans=0.0089 rmse=0.0039 OK    0.3s
+  FPFH+RANSAC (Open3D)     rot=   0.82 trans=0.0091 rmse=0.0040 OK    0.7s
+  FGR (Open3D)             rot=   0.80 trans=0.0089 rmse=0.0039 OK    0.4s
+  4PCS                     rot=   0.81 trans=0.0090 rmse=0.0040 OK    8.8s
+  Super4PCS                rot=   0.81 trans=0.0090 rmse=0.0040 OK   11.7s
+
+### armadillo dphi=90 sigma=0.004 seed=3 overlap=0.60
+  Harris3D+spin+grouping   rot= 169.37 trans=0.4195 rmse=0.5923 FAIL   0.6s
+  Harris3D+spin+RANSAC     rot=   0.72 trans=0.0069 rmse=0.0036 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.72 trans=0.0068 rmse=0.0036 OK    0.5s
+  uniforme+spin+RANSAC     rot=   0.72 trans=0.0068 rmse=0.0036 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.72 trans=0.0068 rmse=0.0036 OK    0.7s
+  FGR (Open3D)             rot=   0.72 trans=0.0068 rmse=0.0036 OK    0.4s
+  4PCS                     rot=   0.72 trans=0.0068 rmse=0.0036 OK    8.1s
+  Super4PCS                rot=   0.72 trans=0.0069 rmse=0.0036 OK   10.1s
+
+=== RESUMEN ===
+Harris3D+spin+grouping   recall=0.50 rot_med=   20.39 t_med=  0.8s
+Harris3D+spin+RANSAC     recall=0.93 rot_med=    0.49 t_med=  0.7s
+Harris3D+FPFH+RANSAC     recall=0.87 rot_med=    0.49 t_med=  0.7s
+uniforme+spin+RANSAC     recall=0.83 rot_med=    0.49 t_med=  0.5s
+FPFH+RANSAC (Open3D)     recall=0.90 rot_med=    0.49 t_med=  0.8s
+FGR (Open3D)             recall=0.87 rot_med=    0.49 t_med=  0.4s
+4PCS                     recall=0.87 rot_med=    0.49 t_med=  8.0s
+Super4PCS                recall=0.87 rot_med=    0.49 t_med=  9.9s

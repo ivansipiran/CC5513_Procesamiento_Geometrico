@@ -1,0 +1,7 @@
+numpy
+scipy
+polyscope
+certifi
+# opcionales
+scikit-image   # marching cubes para comparar con marching tetrahedra
+open3d         # Poisson screened de referencia

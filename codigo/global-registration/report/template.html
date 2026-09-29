@@ -1,0 +1,659 @@
+<title>Global Registration: Harris 3D y 4PCS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+
+<style>
+:root{
+  color-scheme: light;
+  --ground:#f5f7f9;
+  --surface:#ffffff;
+  --surface-2:#eef1f5;
+  --ink:#141821;
+  --ink-2:#59616f;
+  --ink-3:#828b9a;
+  --line:#dde2ea;
+  --line-strong:#c3cad6;
+  --accent:#2a78d6;
+  --accent-soft:#e4eefb;
+  --good:#15733f;
+  --good-soft:#e0f2e7;
+  --bad:#b3261e;
+  --bad-soft:#fbe6e4;
+  --warn:#8a5a00;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100;
+  --plate:#ffffff;
+  --maxw:min(100% - 3rem, 74rem);
+  --prose:min(100% - 3rem, 40rem);
+}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --ground:#0f1218;
+    --surface:#171b23;
+    --surface-2:#1e232d;
+    --ink:#eef1f6;
+    --ink-2:#a6afbd;
+    --ink-3:#7c8493;
+    --line:#2a303b;
+    --line-strong:#3b434f;
+    --accent:#6aa6f0;
+    --accent-soft:#1b2735;
+    --good:#4cc487;
+    --good-soft:#16281f;
+    --bad:#f08a82;
+    --bad-soft:#2b1a19;
+    --warn:#d8a23c;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+    --plate:#e9ecf1;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --ground:#0f1218;
+  --surface:#171b23;
+  --surface-2:#1e232d;
+  --ink:#eef1f6;
+  --ink-2:#a6afbd;
+  --ink-3:#7c8493;
+  --line:#2a303b;
+  --line-strong:#3b434f;
+  --accent:#6aa6f0;
+  --accent-soft:#1b2735;
+  --good:#4cc487;
+  --good-soft:#16281f;
+  --bad:#f08a82;
+  --bad-soft:#2b1a19;
+  --warn:#d8a23c;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500;
+  --plate:#e9ecf1;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
+  font-size:17px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.page{display:flex;flex-direction:column;align-items:center;gap:0}
+section,header,footer{width:100%;display:flex;flex-direction:column;align-items:center}
+.prose{width:var(--prose);display:flex;flex-direction:column;gap:1.1rem}
+.wide{width:var(--maxw);display:flex;flex-direction:column;gap:1rem}
+
+h1,h2,h3,.label,.eyebrow,th,.num,figcaption,.chip,.tag,nav{
+  font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+h1{font-size:clamp(2rem,4.4vw,3.1rem);line-height:1.06;letter-spacing:-.025em;
+   font-weight:700;margin:0;text-wrap:balance}
+h2{font-size:1.55rem;line-height:1.2;letter-spacing:-.015em;font-weight:600;
+   margin:0;text-wrap:balance}
+h3{font-size:1.05rem;letter-spacing:-.005em;font-weight:600;margin:0}
+p{margin:0}
+a{color:var(--accent)}
+strong{font-weight:600}
+code,.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:.86em;background:var(--surface-2);padding:.1em .35em;border-radius:3px}
+.eyebrow{font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;
+  font-weight:600;color:var(--ink-3)}
+
+header{padding:4.5rem 0 2.5rem}
+.hdr{width:var(--maxw);display:flex;flex-direction:column;gap:1.15rem}
+.hdr .sub{font-size:1.2rem;color:var(--ink-2);max-width:42rem}
+.meta{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.35rem}
+.tag{font-size:.75rem;font-weight:500;color:var(--ink-2);background:var(--surface);
+  border:1px solid var(--line);border-radius:999px;padding:.28rem .7rem}
+
+section{padding:2.4rem 0}
+.rule{width:var(--maxw);height:1px;background:var(--line)}
+
+/* verdicto */
+.verdict{width:var(--maxw);background:var(--surface);border:1px solid var(--line);
+  border-radius:10px;padding:1.6rem 1.7rem;display:grid;gap:1.3rem;
+  grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+.verdict .lead{grid-column:1/-1;font-size:1.22rem;line-height:1.45}
+.vitem{display:flex;flex-direction:column;gap:.3rem}
+.vitem .k{font-family:"IBM Plex Sans",sans-serif;font-size:.72rem;
+  letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.vitem .v{font-family:"IBM Plex Mono",monospace;font-size:1.5rem;font-weight:600;
+  font-variant-numeric:tabular-nums;line-height:1.1}
+.vitem .n{font-size:.9rem;color:var(--ink-2);line-height:1.4}
+.ok{color:var(--good)} .no{color:var(--bad)}
+
+/* pasos numerados = cadena de diagnostico */
+.step{width:var(--maxw);display:flex;gap:1.4rem;align-items:baseline}
+.step .n{font-family:"IBM Plex Mono",monospace;font-size:.95rem;font-weight:600;
+  color:var(--accent);flex:none;width:2.2rem;padding-top:.15rem}
+.step .body{display:flex;flex-direction:column;gap:.55rem;min-width:0;flex:1}
+.step .body > p, .step .body > ul{max-width:40rem}
+
+/* figuras: laminas claras, como en un paper impreso */
+figure{margin:0;width:var(--maxw);display:flex;flex-direction:column;gap:.55rem}
+.plate{background:var(--plate);border:1px solid var(--line);border-radius:8px;
+  padding:.6rem;overflow-x:auto}
+.plate img{display:block;width:100%;height:auto;max-width:100%}
+figcaption{font-size:.85rem;color:var(--ink-2);line-height:1.5;max-width:52rem}
+
+/* tablas */
+.tablewrap{width:var(--maxw);overflow-x:auto;border:1px solid var(--line);
+  border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;
+  font-family:"IBM Plex Sans",sans-serif}
+th,td{padding:.6rem .85rem;text-align:right;border-bottom:1px solid var(--line);
+  white-space:nowrap;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+thead th{font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;background:var(--surface-2)}
+tbody tr:last-child td{border-bottom:none}
+caption{caption-side:top;text-align:left;padding:.7rem .85rem .2rem;
+  font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600}
+tr.hl td{background:var(--accent-soft)}
+tr.dim td{color:var(--ink-2)}
+.pill{display:inline-block;padding:.12rem .5rem;border-radius:999px;
+  font-size:.78rem;font-weight:600}
+.pill.g{background:var(--good-soft);color:var(--good)}
+.pill.b{background:var(--bad-soft);color:var(--bad)}
+
+/* graficos */
+.chart{width:var(--maxw);background:var(--surface);border:1px solid var(--line);
+  border-radius:8px;padding:1.1rem 1.2rem;display:flex;flex-direction:column;gap:.7rem}
+.chart h3{font-size:.95rem}
+.chart .cap{font-size:.85rem;color:var(--ink-2);max-width:52rem}
+.chart svg{width:100%;height:auto;overflow:visible}
+.legend{display:flex;flex-wrap:wrap;gap:1rem;font-family:"IBM Plex Sans",sans-serif;
+  font-size:.8rem;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:.4rem}
+.legend i{width:.75rem;height:.75rem;border-radius:2px;display:inline-block}
+.axis{stroke:var(--line-strong);stroke-width:1}
+.grid{stroke:var(--line);stroke-width:1}
+.tick{fill:var(--ink-3);font-family:"IBM Plex Sans",sans-serif;font-size:11px}
+.vlab{fill:var(--ink-2);font-family:"IBM Plex Mono",monospace;font-size:11px;
+  font-variant-numeric:tabular-nums}
+.slab{fill:var(--ink);font-family:"IBM Plex Sans",sans-serif;font-size:11px;font-weight:600}
+
+ul{margin:0;padding-left:1.15rem;display:flex;flex-direction:column;gap:.4rem}
+li::marker{color:var(--ink-3)}
+.callout{width:var(--prose);background:var(--surface);border:1px solid var(--line);
+  border-left:3px solid var(--accent);border-radius:6px;padding:1rem 1.2rem;
+  font-size:.95rem;display:flex;flex-direction:column;gap:.5rem}
+pre{width:var(--maxw);background:var(--surface);border:1px solid var(--line);
+  border-radius:8px;padding:1rem 1.2rem;overflow-x:auto;margin:0;
+  font-family:"IBM Plex Mono",monospace;font-size:.82rem;line-height:1.6;color:var(--ink)}
+footer{padding:3rem 0 4.5rem;color:var(--ink-2);font-size:.9rem}
+footer .wide{gap:.5rem}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){
+  .plate img{transition:none}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .step{flex-direction:column;gap:.4rem}
+  .step .n{width:auto}
+}
+</style>
+
+<div class="page">
+
+<header>
+  <div class="hdr">
+    <div class="eyebrow">Procesamiento Geométrico y Análisis de Formas · Clase 6</div>
+    <h1>Global Registration:<br>qué tan lejos llega la receta</h1>
+    <p class="sub">Dos implementaciones completas — Harris 3D + spin images, y 4PCS/Super4PCS —
+      evaluadas sobre 30 pares de scans parciales con ground truth exacto.</p>
+    <div class="meta">
+      <span class="tag">Harris 3D (Sipiran &amp; Bustos, 2011)</span>
+      <span class="tag">Spin Images (Johnson &amp; Hebert, 1999)</span>
+      <span class="tag">4PCS (Aiger et al., 2008)</span>
+      <span class="tag">Super4PCS (Mellado et al., 2014)</span>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="verdict">
+    <p class="lead"><strong>La receta se implementa y da resultados.</strong> Harris 3D y las
+      spin images funcionan — de hecho las spin images emparejan mejor que FPFH sobre los
+      mismos keypoints. El eslabón débil está en el último paso: el agrupamiento geométrico
+      de las slides colapsa cuando el solapamiento baja de ~0.5. Cambiándolo por RANSAC sobre
+      las mismas correspondencias, la receta pasa de <span class="no">0.50</span> a
+      <span class="ok">0.93</span> de recall y queda a la par de los métodos actuales.</p>
+    <div class="vitem">
+      <span class="k">Receta tal cual</span>
+      <span class="v no">0.50</span>
+      <span class="n">recall sobre 30 pares. Perfecta con solapamiento &gt; 0.5, cero por debajo.</span>
+    </div>
+    <div class="vitem">
+      <span class="k">Con RANSAC al final</span>
+      <span class="v ok">0.93</span>
+      <span class="n">mismo detector, mismo descriptor, mismas correspondencias. 0.7 s por par.</span>
+    </div>
+    <div class="vitem">
+      <span class="k">Super4PCS</span>
+      <span class="v">0.87</span>
+      <span class="n">sin features, sin normales confiables, pero 12× más lento.</span>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="prose">
+    <div class="eyebrow">El banco de pruebas</div>
+    <h2>30 pares con ground truth exacto</h2>
+    <p>Todo lo que sigue se mide sobre pares de <em>range scans</em> simulados: se lanza un
+      raycast sobre la malla completa desde dos direcciones separadas por un ángulo, lo que
+      produce auto-oclusión, bordes y solapamiento parcial reales; después se aplica al primer
+      scan una pose rígida aleatoria uniforme en SO(3). La pose inversa es el ground truth
+      <em>exacto</em>, no una estimación de ICP, así que los errores que se reportan son errores
+      de verdad.</p>
+    <p>El ángulo entre vistas controla el solapamiento: 45° ≈ 0.87, 90° ≈ 0.65, 135° ≈ 0.30.
+      Los modelos son <em>bunny</em> y <em>armadillo</em>, normalizados a diagonal 1.0, con
+      voxel de 0.008 (≈ 5 000 puntos por scan). Se agregan además dos niveles de ruido
+      gaussiano.</p>
+  </div>
+</section>
+
+<section>
+  <figure>
+    <div class="plate"><img alt="Cuatro paneles: los dos scans de entrada en poses distintas; la respuesta de Harris 3D sobre uno de ellos con los keypoints marcados; las correspondencias por spin images en verde (correctas) y rojo (incorrectas); y el resultado alineado." src="{{FIG_STAGES}}"></div>
+    <figcaption>El pipeline completo sobre un par de armadillo con solapamiento 0.81. De izquierda
+      a derecha: entrada, respuesta de Harris 3D con los keypoints seleccionados, correspondencias
+      por spin images (verde = correcta bajo el ground truth), y la pose recuperada tras ICP —
+      0.05° de error.</figcaption>
+  </figure>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="prose">
+    <div class="eyebrow">Diagnóstico</div>
+    <h2>Cuatro preguntas, en orden</h2>
+    <p>La receta tiene cuatro etapas y cada una puede romper la siguiente. Conviene probarlas
+      por separado: si los keypoints no son repetibles, ningún descriptor salva el pipeline;
+      si las correspondencias no tienen inliers, ningún solver los encuentra. Las cuatro
+      preguntas van en cadena.</p>
+  </div>
+</section>
+
+<section>
+  <div class="step">
+    <div class="n">01</div>
+    <div class="body">
+      <h3>¿Harris 3D elige los mismos puntos físicos en los dos scans?</h3>
+      <p>Sí, con holgura. Medido como repetibilidad relativa (Salti et al.): fracción de
+        keypoints del scan A que, llevados por el ground truth, tienen un keypoint del scan B
+        a menos de ε. Con ε = 2 voxels, Harris 3D acierta el 58 % contra el 32 % de ISS.
+        La comparación importante es contra el muestreo aleatorio, que con 200 keypoints sobre
+        5 000 puntos ya acierta por densidad: a ε = 1 voxel Harris 3D duplica ese piso.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="chart">
+    <h3>Repetibilidad de keypoints</h3>
+    <p class="cap">Promedio sobre 6 pares (bunny y armadillo × 3 ángulos), 200 keypoints por
+      nube. Eje horizontal: tolerancia ε en múltiplos del voxel.</p>
+    {{CHART_REPEAT}}
+    <div class="legend">
+      <span><i style="background:var(--s1)"></i>Harris 3D</span>
+      <span><i style="background:var(--s2)"></i>Harris 3D (Noble)</span>
+      <span><i style="background:var(--s3)"></i>ISS</span>
+      <span><i style="background:var(--s4)"></i>muestreo aleatorio</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <figure>
+    <div class="plate"><img alt="El conejo de Stanford visto desde dos ángulos, coloreado por la respuesta de Harris 3D, con 120 keypoints marcados en negro." src="{{FIG_HARRIS}}"></div>
+    <figcaption>Harris 3D sobre la malla completa con vecindades adaptativas por anillos
+      (δ = 1 % de la diagonal). La respuesta está percentilizada; los puntos negros son los
+      120 keypoints tras supresión de no máximos. La implementación sobre mallas y la
+      implementación sobre nubes comparten el núcleo: PCA, ajuste cuadrático y operador de
+      Harris; cambia solo cómo se define la vecindad.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="step">
+    <div class="n">02</div>
+    <div class="body">
+      <h3>¿Las spin images emparejan esos keypoints?</h3>
+      <p>Sí, y mejor que FPFH. Sobre exactamente los mismos keypoints de Harris 3D y con
+        matching mutuo, la similitud <code>C(P,Q) = atanh(R)² − λ/(N−3)</code> de las slides
+        entrega el doble de inliers que FPFH con solapamiento alto y medio. La ventaja se
+        pierde recién en solapamiento bajo, donde ambos descriptores caen al 5 %.</p>
+      <p>Ese 5 % es el número que importa: con ~60 correspondencias mutuas, un 5 % de inliers
+        son <em>tres</em> correspondencias correctas. Todo lo que venga después tiene que
+        encontrar tres agujas en un pajar de 60.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="chart">
+    <h3>Razón de inliers de las correspondencias mutuas</h3>
+    <p class="cap">Mismo detector (Harris 3D), mismo matching (mejor mutuo); cambia solo el
+      descriptor. Una correspondencia es inlier si bajo el ground truth los dos puntos quedan
+      a menos de 3 voxels.</p>
+    {{CHART_DESC}}
+    <div class="legend">
+      <span><i style="background:var(--s1)"></i>Spin images</span>
+      <span><i style="background:var(--s2)"></i>FPFH</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <figure>
+    <div class="plate"><img alt="Tres paneles del conejo con líneas de correspondencia entre keypoints: en el primero predominan las verdes, en el segundo hay mezcla, en el tercero casi todas son rojas." src="{{FIG_CORR}}"></div>
+    <figcaption>Cómo se degradan las correspondencias al abrir el ángulo entre vistas. Verde =
+      correcta bajo el ground truth. El problema no es el descriptor: es que al bajar el
+      solapamiento, la mayoría de los keypoints del scan A sencillamente no existen en el
+      scan B, y el mejor match mutuo termina siendo un impostor.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <figure>
+    <div class="plate"><img alt="Dieciséis spin images en escala de grises, cada una una cuadrícula de 16 por 16 bins con patrones de líneas curvas." src="{{FIG_SPIN}}"></div>
+    <figcaption>Spin images de 16 keypoints (W = 16 bins, bin = 2 voxels, ángulo de soporte 60°,
+      acumulación bilineal). El eje horizontal es α (distancia radial al eje de la normal) y el
+      vertical β (altura sobre el plano tangente).</figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="step">
+    <div class="n">03</div>
+    <div class="body">
+      <h3>¿El agrupamiento geométrico recupera la pose?</h3>
+      <p>Aquí se rompe. El criterio <code>W_gc</code> de Johnson &amp; Hebert crece grupos de
+        forma voraz: parte de una correspondencia y va agregando la que minimiza el máximo
+        <code>W_gc</code> contra el grupo. Con solapamiento alto hay 40–60 inliers y el grupo
+        correcto crece solo. Con tres inliers entre sesenta, el crecimiento voraz se llena de
+        outliers mutuamente consistentes antes de encontrarlos, y la verificación LCP termina
+        eligiendo una pose plausible pero equivocada.</p>
+      <p>No es un problema de implementación: el criterio de consistencia por distancias
+        (clique voraz) falla igual. Es el <em>régimen</em>. RANSAC, en cambio, muestrea ternas
+        al azar y solo necesita tener suerte una vez en 20 000 intentos — que con 5 % de
+        inliers es exactamente lo que pasa.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="chart">
+    <h3>El mismo problema, cambiando solo el paso final</h3>
+    <p class="cap">24 pares de bunny y armadillo con ángulos de 90° a 150°. Idénticos keypoints,
+      descriptores y correspondencias (matching mutuo); cambia solo cómo se estima la pose.
+      Recall = error de rotación &lt; 5° y de traslación &lt; 0.05.</p>
+    {{CHART_SOLVER}}
+    <div class="legend">
+      <span><i style="background:var(--s1)"></i>Agrupamiento W<sub>gc</sub> (slides)</span>
+      <span><i style="background:var(--s2)"></i>Clique por distancias</span>
+      <span><i style="background:var(--s3)"></i>RANSAC</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="step">
+    <div class="n">04</div>
+    <div class="body">
+      <h3>¿Cómo queda contra los métodos que se usan hoy?</h3>
+      <p>A la par, y mejor en el caso difícil. Con RANSAC al final, Harris 3D + spin images
+        queda en 0.93 contra 0.90 de FPFH+RANSAC y 0.87 de FGR — una diferencia de una o dos
+        corridas de 30, o sea ruido. Lo que sí separa es el solapamiento bajo: 0.83 contra
+        0.50 y 0.33, porque las correspondencias que produce son más limpias. Cuesta 0.7 s por
+        par: 0.45 s el detector, 0.30 s los descriptores, y milisegundos el resto.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="tablewrap">
+    <table>
+      <caption>Recall por método y régimen de solapamiento</caption>
+      <thead>
+        <tr>
+          <th>Método</th>
+          <th>Recall global</th>
+          <th>ov &gt; 0.8</th>
+          <th>ov ≈ 0.6</th>
+          <th>ov ≈ 0.3</th>
+          <th>con ruido</th>
+          <th>tiempo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="dim">
+          <td>Harris3D + spin + agrupamiento <em>(receta de las slides)</em></td>
+          <td><span class="pill b">0.50</span></td><td>1.00</td><td>1.00</td><td>0.00</td><td>0.25</td><td>0.8 s</td>
+        </tr>
+        <tr class="hl">
+          <td>Harris3D + spin + RANSAC</td>
+          <td><span class="pill g">0.93</span></td><td>1.00</td><td>1.00</td><td>0.83</td><td>0.92</td><td>0.7 s</td>
+        </tr>
+        <tr>
+          <td>Harris3D + FPFH + RANSAC</td>
+          <td>0.87</td><td>1.00</td><td>1.00</td><td>0.50</td><td>0.92</td><td>0.7 s</td>
+        </tr>
+        <tr>
+          <td>Muestreo uniforme + spin + RANSAC</td>
+          <td>0.83</td><td>1.00</td><td>1.00</td><td>0.17</td><td>1.00</td><td>0.5 s</td>
+        </tr>
+        <tr>
+          <td>FPFH + RANSAC (Open3D)</td>
+          <td>0.90</td><td>1.00</td><td>1.00</td><td>0.50</td><td>1.00</td><td>0.8 s</td>
+        </tr>
+        <tr>
+          <td>Fast Global Registration (Open3D)</td>
+          <td>0.87</td><td>1.00</td><td>1.00</td><td>0.33</td><td>1.00</td><td>0.4 s</td>
+        </tr>
+        <tr>
+          <td>4PCS</td>
+          <td>0.87</td><td>1.00</td><td>1.00</td><td>0.33</td><td>1.00</td><td>8.0 s</td>
+        </tr>
+        <tr>
+          <td>Super4PCS</td>
+          <td>0.87</td><td>1.00</td><td>1.00</td><td>0.33</td><td>1.00</td><td>9.9 s</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="wide" style="margin-top:.6rem">
+    <p style="font-size:.85rem;color:var(--ink-2);max-width:52rem">30 pares: 2 modelos × 3
+      ángulos × 3 semillas sin ruido, más 2 niveles de ruido × 2 modelos × 3 semillas.
+      Todos los métodos terminan con el mismo ICP punto-a-plano, así que la comparación es
+      sobre la pose inicial que cada uno entrega. El RNG de RANSAC va sembrado, así que las
+      corridas son reproducibles; aun así, una diferencia de 0.03 en el recall global es una
+      sola corrida de 30 y no distingue a un método de otro.</p>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="prose">
+    <div class="eyebrow">Sin features</div>
+    <h2>4PCS y Super4PCS</h2>
+    <p>La implementación sigue las slides: <code>SelectCoplanarBase</code> elige cuatro puntos
+      aproximadamente coplanares y anchos, con las diagonales cruzándose en <em>e</em>;
+      las razones afines r₁ y r₂ son el invariante; <code>FindCongruent</code> busca en la otra
+      nube todos los pares a distancia d₁ y d₂, genera los puntos intermedios candidatos y los
+      cruza. Cada conjunto congruente da una pose que se evalúa por LCP.</p>
+    <p>La diferencia entre las dos variantes está en cómo se extraen los pares. 4PCS los saca
+      de la matriz completa de distancias, O(n²). Super4PCS rasteriza la cáscara esférica de
+      radio d sobre una grilla y visita solo las celdas que la intersectan, O(n + #pares).
+      Con n = 500 da lo mismo; a partir de n = 2 000 la diferencia es de casi un orden de
+      magnitud.</p>
+  </div>
+</section>
+
+<section>
+  <div class="chart">
+    <h3>Cuánto acelera Super4PCS la extracción de pares</h3>
+    <p class="cap">Cociente entre el tiempo de 4PCS (matriz completa de distancias) y el de
+      Super4PCS (cáscara esférica rasterizada) al extraer los pares a d = 0.35 y d = 0.28 con
+      δ = 0.005, sobre un scan de armadillo submuestreado. Bajo cada barra, los dos tiempos
+      absolutos. Ambas versiones devuelven exactamente el mismo conjunto de pares.</p>
+    {{CHART_SCALE}}
+  </div>
+</section>
+
+<section>
+  <div class="prose">
+    <p>Dos observaciones honestas sobre la implementación. Primero: el filtro por ángulo entre
+      normales que propone Super4PCS reduce a la mitad los conjuntos congruentes sin perder la
+      pose correcta, y es la optimización con mejor relación esfuerzo/beneficio. Segundo: mi
+      <em>join</em> por grilla para cruzar los puntos intermedios es asintóticamente mejor que
+      un kd-tree pero, escrito en numpy contra un kd-tree en C, pierde por constante — la
+      ganancia real de Super4PCS en este código está toda en la extracción de pares.</p>
+    <p>En resultados, 4PCS y Super4PCS son sólidos hasta solapamiento 0.6 y se degradan antes
+      que los métodos con features por debajo de eso (0.33 contra 0.83). A cambio no necesitan
+      normales confiables ni descriptores, que es exactamente el caso de uso que plantea la
+      slide 34: ruido, outliers y agujeros.</p>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="prose">
+    <div class="eyebrow">Recomendación</div>
+    <h2>Qué cambiaría en la receta</h2>
+    <p>La receta de las slides es buena como estructura conceptual y como implementación —
+      las tres primeras etapas se sostienen contra los métodos actuales. Tres cambios chicos
+      la dejan competitiva en todo el rango:</p>
+    <ul>
+      <li><strong>Reemplazar el agrupamiento por RANSAC</strong> con verificación LCP. Es el
+        cambio que mueve la aguja: de 0.50 a 0.93. Vale la pena mostrar el criterio
+        <code>W_gc</code> en clase — explica bien la idea de consistencia geométrica — pero
+        conviene decir en qué régimen funciona.</li>
+      <li><strong>Mantener matching mutuo</strong>, no top-k. Ampliar a los 5 mejores destinos
+        multiplica por 20 las correspondencias y baja el recall de RANSAC: el ruido crece más
+        rápido que la señal.</li>
+      <li><strong>Verificar siempre por LCP</strong>, no por el residuo del grupo. Un grupo
+        pequeño y perfectamente consistente casi siempre es un impostor.</li>
+    </ul>
+    <p>Si además interesa mostrar hacia dónde fue el campo: el mismo esqueleto
+      (sample → describe → match → solve robusto) es el de FCGF/Predator con descriptores
+      aprendidos, y el de TEASER++ con un solver de clique máximo certificable. La receta de
+      las slides no está obsoleta; está incompleta en el último paso.</p>
+  </div>
+</section>
+
+<section>
+  <div class="callout">
+    <strong>Datos reales</strong>
+    <p>Los tres fragmentos RGB-D de Redwood que trae Open3D (escena de living, solapamiento
+      ≈ 0.7) los resuelven <em>todos</em> los métodos, incluido el agrupamiento de las slides.
+      Sirven como verificación de que el código corre sobre datos reales, no como banco
+      discriminante: el régimen difícil está en el solapamiento bajo.</p>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="prose">
+    <div class="eyebrow">Parámetros</div>
+    <h2>Los que realmente importan</h2>
+  </div>
+</section>
+
+<section>
+  <div class="tablewrap">
+    <table>
+      <thead>
+        <tr><th>Parámetro</th><th>Valor usado</th><th>Qué pasa si se mueve</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Harris: vecindad</td><td>60 vecinos (nube) · δ = 1 % diag (malla)</td>
+          <td style="text-align:left;white-space:normal">Poca vecindad, respuesta dominada por el ruido; mucha, se pierden los detalles finos.</td></tr>
+        <tr><td>Harris: σ del suavizado</td><td>radio efectivo de la vecindad</td>
+          <td style="text-align:left;white-space:normal">Tiene unidades de longitud: fijarlo en 1 rompe la invariancia a escala.</td></tr>
+        <tr><td>Supresión de no máximos</td><td>4 voxels</td>
+          <td style="text-align:left;white-space:normal">Sin ella los 200 keypoints caen todos en la misma oreja.</td></tr>
+        <tr><td>Spin: bin</td><td>2 voxels</td>
+          <td style="text-align:left;white-space:normal">Bins grandes ganan robustez a ruido y pierden discriminación.</td></tr>
+        <tr><td>Spin: ancho W</td><td>16 bins (soporte ≈ 0.26 del diámetro)</td>
+          <td style="text-align:left;white-space:normal">Soportes grandes son más distintivos pero más frágiles a la oclusión parcial.</td></tr>
+        <tr><td>Spin: ángulo de soporte</td><td>60°</td>
+          <td style="text-align:left;white-space:normal">Evita mezclar las dos caras de una superficie delgada.</td></tr>
+        <tr><td>RANSAC: umbral de inlier</td><td>2.5 voxels</td>
+          <td style="text-align:left;white-space:normal">Es el parámetro más sensible de todo el pipeline.</td></tr>
+        <tr><td>4PCS: δ</td><td>2 voxels</td>
+          <td style="text-align:left;white-space:normal">δ grande explota el número de conjuntos congruentes; δ chico pierde la base correcta.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="prose">
+    <div class="eyebrow">Código</div>
+    <h2>Cómo correrlo</h2>
+    <p>El demo corre los métodos y después abre <strong>Polyscope</strong> con una sola
+      escena: destino en azul, origen en naranja, y las correspondencias de Harris 3D +
+      spin images en verde y rojo según sean correctas o no. Los radio buttons del panel
+      cambian la pose del origen entre la configuración inicial, el resultado de cada
+      método y el ground truth, con el error de cada uno a la vista. En una máquina sin
+      pantalla arranca con el backend EGL headless y guarda un PNG por estado.</p>
+  </div>
+</section>
+
+<section>
+<pre>pip install -r requirements.txt
+
+python3 demo.py --mesh bunny --dphi 90              # los cuatro métodos sobre un par
+python3 demo.py --mesh armadillo --dphi 120         # aquí falla la receta
+python3 demo.py --dphi 90 --no-view                 # solo los números
+
+python3 experiments/exp1_repeatability.py           # repetibilidad de keypoints
+python3 experiments/exp2_descriptors.py             # calidad de las correspondencias
+python3 experiments/exp3_full.py                    # comparación completa
+python3 experiments/exp4_scaling.py                 # 4PCS vs Super4PCS
+python3 experiments/exp5_solver.py                  # dónde se rompe la receta
+python3 experiments/exp6_real.py                    # fragmentos RGB-D reales</pre>
+</section>
+
+<section>
+  <div class="prose">
+    <p>El núcleo está en <code>gr/</code>: <code>harris3d.py</code> (vecindades adaptativas,
+      PCA, ajuste cuadrático, operador de Harris), <code>spin_images.py</code> (descriptor y
+      similitud por correlación), <code>grouping.py</code> (Umeyama, W<sub>gc</sub>, clique,
+      RANSAC, verificación LCP), <code>fourpcs.py</code> (4PCS y Super4PCS) y
+      <code>data.py</code> (el banco de pruebas). Todo es numpy/scipy; Open3D se usa para
+      I/O, kd-trees, ICP y como baseline.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wide">
+    <div class="eyebrow">Referencias</div>
+    <p>I. Sipiran, B. Bustos. <em>Harris 3D: a robust extension of the Harris operator for
+      interest point detection on 3D meshes.</em> The Visual Computer 27(11), 2011.</p>
+    <p>A. Johnson, M. Hebert. <em>Using spin images for efficient object recognition in
+      cluttered 3D scenes.</em> IEEE TPAMI 21(5), 1999.</p>
+    <p>D. Aiger, N. Mitra, D. Cohen-Or. <em>4-points congruent sets for robust pairwise
+      surface registration.</em> ACM SIGGRAPH 2008.</p>
+    <p>N. Mellado, D. Aiger, N. Mitra. <em>Super 4PCS: fast global pointcloud registration
+      via smart indexing.</em> Computer Graphics Forum 33(5), 2014.</p>
+    <p>S. Salti, F. Tombari, L. Di Stefano. <em>A performance evaluation of 3D keypoint
+      detectors.</em> 3DIMPVT 2011.</p>
+  </div>
+</footer>
+
+</div>

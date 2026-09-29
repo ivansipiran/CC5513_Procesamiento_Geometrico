@@ -1,0 +1,182 @@
+[
+ {
+  "pair": "0-1",
+  "method": "Harris3D+spin+grouping",
+  "rot_err": 0.003579862820170228,
+  "trans_err": 0.00016410082659373064,
+  "fitness": 0.6699579831932773,
+  "inlier_rmse": 0.02313583767997912,
+  "success": true,
+  "time": 0.7184975147247314
+ },
+ {
+  "pair": "0-1",
+  "method": "Harris3D+spin+RANSAC",
+  "rot_err": 0.003848329000056259,
+  "trans_err": 0.00018763232663271325,
+  "fitness": 0.6701680672268907,
+  "inlier_rmse": 0.02317255533786434,
+  "success": true,
+  "time": 0.6334078311920166
+ },
+ {
+  "pair": "0-1",
+  "method": "Harris3D+FPFH+RANSAC",
+  "rot_err": 0.003338414572051334,
+  "trans_err": 0.0001675522170173481,
+  "fitness": 0.6701680672268907,
+  "inlier_rmse": 0.023172473400149145,
+  "success": true,
+  "time": 0.4460618495941162
+ },
+ {
+  "pair": "0-1",
+  "method": "FPFH+RANSAC (Open3D)",
+  "rot_err": 0.00370241183734892,
+  "trans_err": 0.00018417096749563937,
+  "fitness": 0.6701680672268907,
+  "inlier_rmse": 0.023172544560799962,
+  "success": true,
+  "time": 0.2531919479370117
+ },
+ {
+  "pair": "0-1",
+  "method": "FGR (Open3D)",
+  "rot_err": 0.003338406929932888,
+  "trans_err": 0.00016755047172534437,
+  "fitness": 0.6701680672268907,
+  "inlier_rmse": 0.023172473428169103,
+  "success": true,
+  "time": 0.2976512908935547
+ },
+ {
+  "pair": "0-1",
+  "method": "Super4PCS",
+  "rot_err": 1.7075472925031877e-06,
+  "trans_err": 8.683397176159151e-09,
+  "fitness": 0.6701680672268907,
+  "inlier_rmse": 0.023173276931247645,
+  "success": true,
+  "time": 27.202888250350952
+ },
+ {
+  "pair": "1-2",
+  "method": "Harris3D+spin+grouping",
+  "rot_err": 0.0,
+  "trans_err": 2.6050306443910962e-08,
+  "fitness": 0.7927325581395349,
+  "inlier_rmse": 0.02364969295104271,
+  "success": true,
+  "time": 0.46990203857421875
+ },
+ {
+  "pair": "1-2",
+  "method": "Harris3D+spin+RANSAC",
+  "rot_err": 1.2074182697257333e-06,
+  "trans_err": 1.58070419861525e-10,
+  "fitness": 0.7927325581395349,
+  "inlier_rmse": 0.02364969248204927,
+  "success": true,
+  "time": 0.49429774284362793
+ },
+ {
+  "pair": "1-2",
+  "method": "Harris3D+FPFH+RANSAC",
+  "rot_err": 0.0,
+  "trans_err": 2.6264915677870838e-12,
+  "fitness": 0.7927325581395349,
+  "inlier_rmse": 0.023649692482773203,
+  "success": true,
+  "time": 0.44206881523132324
+ },
+ {
+  "pair": "1-2",
+  "method": "FPFH+RANSAC (Open3D)",
+  "rot_err": 0.0,
+  "trans_err": 1.4542028337245932e-08,
+  "fitness": 0.7927325581395349,
+  "inlier_rmse": 0.02364969279420135,
+  "success": true,
+  "time": 0.2658114433288574
+ },
+ {
+  "pair": "1-2",
+  "method": "FGR (Open3D)",
+  "rot_err": 0.0,
+  "trans_err": 1.07648703214886e-12,
+  "fitness": 0.7927325581395349,
+  "inlier_rmse": 0.023649692482801334,
+  "success": true,
+  "time": 0.3321363925933838
+ },
+ {
+  "pair": "1-2",
+  "method": "Super4PCS",
+  "rot_err": 0.0,
+  "trans_err": 2.6068705328066808e-08,
+  "fitness": 0.7927325581395349,
+  "inlier_rmse": 0.023649692951211217,
+  "success": true,
+  "time": 42.49246001243591
+ },
+ {
+  "pair": "0-2",
+  "method": "Harris3D+spin+grouping",
+  "rot_err": 9.436419886396641e-05,
+  "trans_err": 5.008781762895625e-06,
+  "fitness": 0.7607142857142857,
+  "inlier_rmse": 0.024715422591518283,
+  "success": true,
+  "time": 0.6202051639556885
+ },
+ {
+  "pair": "0-2",
+  "method": "Harris3D+spin+RANSAC",
+  "rot_err": 0.0009022428476136008,
+  "trans_err": 2.8952568767753794e-05,
+  "fitness": 0.7607142857142857,
+  "inlier_rmse": 0.024716425955975042,
+  "success": true,
+  "time": 0.6583185195922852
+ },
+ {
+  "pair": "0-2",
+  "method": "Harris3D+FPFH+RANSAC",
+  "rot_err": 0.0,
+  "trans_err": 3.6218196678391667e-12,
+  "fitness": 0.7607142857142857,
+  "inlier_rmse": 0.024715387601272995,
+  "success": true,
+  "time": 0.49952030181884766
+ },
+ {
+  "pair": "0-2",
+  "method": "FPFH+RANSAC (Open3D)",
+  "rot_err": 1.7075472925031877e-06,
+  "trans_err": 1.5426568253681365e-10,
+  "fitness": 0.7607142857142857,
+  "inlier_rmse": 0.024715387602606383,
+  "success": true,
+  "time": 0.3062906265258789
+ },
+ {
+  "pair": "0-2",
+  "method": "FGR (Open3D)",
+  "rot_err": 1.2074182697257333e-06,
+  "trans_err": 1.8336057021717344e-08,
+  "fitness": 0.7607142857142857,
+  "inlier_rmse": 0.024715387401339592,
+  "success": true,
+  "time": 0.3565633296966553
+ },
+ {
+  "pair": "0-2",
+  "method": "Super4PCS",
+  "rot_err": 0.0,
+  "trans_err": 9.39837178440042e-14,
+  "fitness": 0.7607142857142857,
+  "inlier_rmse": 0.02471538760125001,
+  "success": true,
+  "time": 34.62040114402771
+ }
+]

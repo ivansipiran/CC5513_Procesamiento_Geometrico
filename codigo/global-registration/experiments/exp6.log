@@ -1,0 +1,25 @@
+[4760, 3440, 4517]
+
+### fragmentos 0->1   referencia fitness=0.67 rmse=0.023
+  Harris3D+spin+grouping   rot=   0.00 trans=0.000 fitness=0.67 OK    0.7s
+  Harris3D+spin+RANSAC     rot=   0.00 trans=0.000 fitness=0.67 OK    0.6s
+  Harris3D+FPFH+RANSAC     rot=   0.00 trans=0.000 fitness=0.67 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.00 trans=0.000 fitness=0.67 OK    0.3s
+  FGR (Open3D)             rot=   0.00 trans=0.000 fitness=0.67 OK    0.3s
+  Super4PCS                rot=   0.00 trans=0.000 fitness=0.67 OK   27.2s
+
+### fragmentos 1->2   referencia fitness=0.79 rmse=0.024
+  Harris3D+spin+grouping   rot=   0.00 trans=0.000 fitness=0.79 OK    0.5s
+  Harris3D+spin+RANSAC     rot=   0.00 trans=0.000 fitness=0.79 OK    0.5s
+  Harris3D+FPFH+RANSAC     rot=   0.00 trans=0.000 fitness=0.79 OK    0.4s
+  FPFH+RANSAC (Open3D)     rot=   0.00 trans=0.000 fitness=0.79 OK    0.3s
+  FGR (Open3D)             rot=   0.00 trans=0.000 fitness=0.79 OK    0.3s
+  Super4PCS                rot=   0.00 trans=0.000 fitness=0.79 OK   42.5s
+
+### fragmentos 0->2   referencia fitness=0.76 rmse=0.025
+  Harris3D+spin+grouping   rot=   0.00 trans=0.000 fitness=0.76 OK    0.6s
+  Harris3D+spin+RANSAC     rot=   0.00 trans=0.000 fitness=0.76 OK    0.7s
+  Harris3D+FPFH+RANSAC     rot=   0.00 trans=0.000 fitness=0.76 OK    0.5s
+  FPFH+RANSAC (Open3D)     rot=   0.00 trans=0.000 fitness=0.76 OK    0.3s
+  FGR (Open3D)             rot=   0.00 trans=0.000 fitness=0.76 OK    0.4s
+  Super4PCS                rot=   0.00 trans=0.000 fitness=0.76 OK   34.6s
